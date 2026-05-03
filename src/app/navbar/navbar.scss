@@ -1,0 +1,28 @@
+nav {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    a {
+        text-decoration: none;
+
+        &:visited {
+            color: white;
+        }
+    }
+
+    .name {
+        padding: 2em 0 2em 2em;
+    }
+
+    .navSecondary {
+        display: flex;
+        align-items: center;
+        *{
+            padding: 2em 1em;
+        }
+    }
+
+}

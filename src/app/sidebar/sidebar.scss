@@ -1,0 +1,12 @@
+.sidebar{
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 10%;
+    height: 25vh;
+    border: 1px solid gray;
+    border-radius: 1em;
+    left: 1px;
+    top: 1em;
+}
